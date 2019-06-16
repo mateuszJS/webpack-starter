@@ -10,15 +10,9 @@
     "node": ">=11.3.0",
     "yarn": "^1.12.3"
   },
-  "rules": {
-    "comma-dangle": [
-      "error",
-      "always-multiline"
-    ]
-  },
   "scripts": {
     "dev": "webpack-dev-server --hot --inline  --config webpack.dev.js",
-    "build": "webpack --display-optimization-bailout --config webpack.prod.js",
+    "build": "webpack --config webpack.prod.js",
     "lint": "standard --fix"
   },
   "devDependencies": {

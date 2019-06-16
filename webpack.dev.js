@@ -6,6 +6,7 @@ const HOST = '127.0.0.1'
 const PORT = '7777'
 
 module.exports = merge(common, {
+  mode: 'development',
   devtool: 'eval-source-map',
   devServer: {
     // contentBase: './dist', // This is only necessary if you want to serve static files.
