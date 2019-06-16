@@ -8,6 +8,6 @@
 * [ ] TS configuration
     * handle .ts files by webpack, standard and babel
 * [ ] Improve README file
-    * Add _install, command_ sections
+    * Add _install, commands_ sections
 
 [HtmlWebpackPlugin]: https://webpack.js.org/plugins/html-webpack-plugin/
