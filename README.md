@@ -1,5 +1,5 @@
 ### Roadmap: ###
-* [ ] Basic JS only configuration:
+* [x] Basic JS only configuration:
     * Add template.html and index.js file
     * Create webpack configuration (common, dev, build)
     * Add [HtmlWebpackPlugin] plugin
