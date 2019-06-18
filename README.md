@@ -1,3 +1,5 @@
+![](https://raw.githubusercontent.com/mateuszJS/webpack-starter/development/assets/github-webpack-starter-logo-optimized.png)
+
 ### Roadmap: ###
 * [x] Basic JS only configuration:
     * Add template.html and index.js file
