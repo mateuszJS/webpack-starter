@@ -22,7 +22,7 @@ module.exports = {
         test: /\.ts$/,
         exclude: /node_modules/,
         use: [
-          'babel-loader',
+          'babel-loader', // TODO: Consider this, it doesn't affect on the final bundle
           'ts-loader',
           {
             loader: 'tslint-loader',
