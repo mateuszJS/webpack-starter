@@ -7,7 +7,7 @@
     * Add [HtmlWebpackPlugin] plugin
     * Add standard.js, standard-loader
     * Add README.md with list of tasks
-* [ ] TS configuration
+* [x] TS configuration
     * handle .ts files by webpack, standard and babel
 * [ ] Improve README file
     * Add _install, commands_ sections
