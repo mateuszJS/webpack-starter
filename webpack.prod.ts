@@ -1,8 +1,6 @@
-const merge = require('webpack-merge')
-const common = require('./webpack.common.ts')
+const webpackMerge = require('webpack-merge')
+const webpackCommon = require('./webpack.common.ts')
 
-module.exports = merge(common, {
+module.exports = webpackMerge(webpackCommon, {
   mode: 'production'
 })
-
-export {} // HACK: Cannot redeclare block-scoped variable of 'merge' and 'common'
