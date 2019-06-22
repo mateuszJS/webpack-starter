@@ -1,6 +1,5 @@
-'use strict'
 const merge = require('webpack-merge')
-const common = require('./webpack.common.js')
+const common = require('./webpack.common.ts')
 
 const HOST = '127.0.0.1'
 const PORT = '7777'

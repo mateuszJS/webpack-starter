@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "outDir": "./dist/", // now ./dist/ is excluded
+    "baseUrl": ".",
+    "paths": { // TODO: During dealing with images => try without the "paths", just the baseUrl is enough, maybe
+      "assets/*": [
+        "asset/*"
+      ]
+    },
+
+
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    "module": "es6",
+    "target": "es5"
+  }
+}
