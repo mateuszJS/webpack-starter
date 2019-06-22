@@ -13,7 +13,7 @@
   "scripts": {
     "dev": "webpack-dev-server --hot --inline --config webpack.dev.ts",
     "build": "webpack --config webpack.prod.ts",
-    "lint": "standard *.ts --fix"
+    "lint": "tslint --fix --project ./tsconfig.json"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",

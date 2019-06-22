@@ -5,7 +5,11 @@ const meaningOfLife = () => {
     c: 3
   }
   const { a, c } = obj
-  return a + c
+  return `${a + c}${getLetter('babel')}`
+}
+
+const getLetter = (value: string) => {
+  return `xxx${value}xxx`
 }
 
 export default meaningOfLife

@@ -23,6 +23,7 @@ module.exports = {
         exclude: /node_modules/,
         use: [
           'babel-loader', // TODO: Consider this, it doesn't affect on the final bundle
+          // also read this section and introduce these changes https://github.com/babel/babel-loader#troubleshooting
           'ts-loader',
           {
             loader: 'tslint-loader',
